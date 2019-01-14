@@ -9,17 +9,6 @@ $ go get github.com/jamesjoshuahill/greeting
 $ cd $GOPATH/src/github.com/jamesjoshuahill/greeting
 ```
 
-## Test
-
-The test suite can be run using `go test`, or the `ginkgo` CLI:
-
-```bash
-$ cd $GOPATH/src/github.com/jamesjoshuahill/greeting
-$ go get -u github.com/onsi/gomega
-$ go get -u github.com/onsi/ginkgo/ginkgo
-$ ginkgo -r -p
-```
-
 ## Exercise
 
 The starting point is [`greeting.go`](https://github.com/jamesjoshuahill/greeting/blob/master/greeting.go). You have:
