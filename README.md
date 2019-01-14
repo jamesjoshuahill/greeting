@@ -9,7 +9,7 @@ $ go get github.com/jamesjoshuahill/greeting
 $ cd $GOPATH/src/github.com/jamesjoshuahill/greeting
 ```
 
-## Exercise
+## 1. Breadth exercise
 
 The starting point is [`greeting.go`](https://github.com/jamesjoshuahill/greeting/blob/master/greeting.go). You have:
 
@@ -17,7 +17,11 @@ The starting point is [`greeting.go`](https://github.com/jamesjoshuahill/greetin
 - the constructor accepts no parameters
 - the constructor sets a default value for the private field
 
-Identify as many ways as possible to:
+Find as many ways as possible to support custom greetings. For example: `Welcome!`
 
-- add support for custom greetings
-- continue to offer the default greeting, `Hello world!`
+Please note:
+- The default greeting should be `Hello world!`.
+- Please write all your ideas in Go. As long as they compile, they're valid!
+- If you think of something possible in another language. Please make a note.
+- Please don't filter out your ideas. Look for as many as you can.
+- Don't worry about changing the package API. Make breaking changes.
