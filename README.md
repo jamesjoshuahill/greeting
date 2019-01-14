@@ -20,7 +20,7 @@ $ go get -u github.com/onsi/ginkgo/ginkgo
 $ ginkgo -r -p
 ```
 
-## 1. Breadth exercise
+## Breadth exercise
 
 The starting point is [`greeting.go`](https://github.com/jamesjoshuahill/greeting/blob/master/greeting.go). You have:
 
