@@ -28,7 +28,7 @@ The starting point is [`greeting.go`](https://github.com/jamesjoshuahill/greetin
 - the constructor accepts no parameters
 - the constructor sets a default value for the private field
 
-Find as many ways as possible to support custom greetings. For example: `Welcome!`
+**Goal:** Find as many ways as possible to support custom greetings. For example: `Welcome!`
 
 Please note:
 - The default greeting should be `Hello world!`.
