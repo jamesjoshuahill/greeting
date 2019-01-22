@@ -41,10 +41,11 @@ Let's do a breadth exercise to find as many ways to extend the behaviour of the
 
 Please note:
 
-- **Please write all your ideas in Go.** If they compile they're valid!
+- **Please write all your ideas in Go.**
 - The default greeting should be `"Hello world!"`.
-- If you think of something possible in another language. Please make a note.
-- Please don't filter out your ideas. Look for as many as you can. Go wide!
+- Dirty code is fine. It only needs to compile.
+- If you think of something possible in another language, please make a note.
+- Please try not to filter out your ideas. Try as many as you can. Go wide!
 
 ### Get
 
