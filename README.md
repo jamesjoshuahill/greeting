@@ -17,7 +17,7 @@ The test suite can be run using `go test`, or the [`ginkgo`](https://onsi.github
 $ cd $GOPATH/src/github.com/jamesjoshuahill/greeting
 $ go get -u github.com/onsi/gomega
 $ go get -u github.com/onsi/ginkgo/ginkgo
-$ ginkgo -r -p
+$ ginkgo
 ```
 
 ## Breadth exercise
