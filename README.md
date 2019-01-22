@@ -21,9 +21,10 @@ You have:
 
 - a struct with a private field
 - the constructor accepts no parameters
-- the constructor sets a default value for the private field
+- the constructor sets a default value for the private field: `"Hello world!"`
+- the struct has a method that uses the private field.
 
-**Goal:** Find as many ways as possible to support custom greetings. For example: `"Welcome!"`
+**Goal:** Allow the private field value to be customised. For example: `"Welcome!"`
 
 ## Breaking patterns
 
