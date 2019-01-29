@@ -1,6 +1,23 @@
 package greeting
 
 //////////////////////////////////////////////////
+// 3. Public field
+//
+type Greeter3 struct {
+	Greeting string
+}
+
+func New3() Greeter3 {
+	return Greeter3{
+		Greeting: "Hello world!",
+	}
+}
+
+func (g Greeter3) Greet() string {
+	return g.Greeting
+}
+
+//////////////////////////////////////////////////
 // 4. Setter method
 //
 func (g *Greeter) Greeting(greeting string) {
@@ -56,7 +73,7 @@ func (b *Builder) Build() Greeter {
 }
 
 //////////////////////////////////////////////////
-// 6. Factory
+// 7. Factory
 //
 type Factory struct {
 	greeting string
@@ -79,7 +96,7 @@ func (f Factory) New() Greeter {
 }
 
 //////////////////////////////////////////////////
-// 7. Modifier func
+// 8. Modifier func
 //
 func CustomGreeting(g Greeter, greeting string) Greeter {
 	g.greeting = greeting
@@ -87,22 +104,22 @@ func CustomGreeting(g Greeter, greeting string) Greeter {
 }
 
 //////////////////////////////////////////////////
-// 8. Constructor option param
+// 9. Constructor option param
 //
-type Greeter8 struct {
+type Greeter9 struct {
 	greeting string
 }
 
-type Option func(*Greeter8)
+type Option func(*Greeter9)
 
 func WithGreeting(greeting string) Option {
-	return func(g *Greeter8) {
+	return func(g *Greeter9) {
 		g.greeting = greeting
 	}
 }
 
-func New8(options ...Option) Greeter8 {
-	g := Greeter8{
+func New9(options ...Option) Greeter9 {
+	g := Greeter9{
 		greeting: "Hello world!",
 	}
 
@@ -113,6 +130,6 @@ func New8(options ...Option) Greeter8 {
 	return g
 }
 
-func (g Greeter8) Greet() string {
+func (g Greeter9) Greet() string {
 	return g.greeting
 }
